@@ -44,12 +44,12 @@ public class BaseTest {
 		softAssert = new SoftAssert();
 	}
 	
-	/*
+	
 	@Step("Closing browser")
 	@AfterTest
 	public void tearDown() {
 		driver.quit();
 	}
-	*/
+	
 
 }

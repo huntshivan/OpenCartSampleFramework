@@ -33,9 +33,9 @@ jobs:
         run: mvn clean test -DsuiteXmlFile=testng_regression.xml
 
         
-      - name: Archive test reports (optional)
-        if: always()
-        uses: actions/upload-artifact@v3
-        with:
-          name: testng-reports
-          path: test-output/
+      # - name: Archive test reports (optional)
+      #   if: always()
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: testng-reports
+      #     path: test-output/
